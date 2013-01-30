@@ -17,12 +17,12 @@
 		96C4744816B9AFB400826D7A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C4744716B9AFB400826D7A /* Default@2x.png */; };
 		96C4744A16B9AFB400826D7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C4744916B9AFB400826D7A /* Default-568h@2x.png */; };
 		96C4744D16B9AFB400826D7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C4744B16B9AFB400826D7A /* MainStoryboard.storyboard */; };
-		96C4745016B9AFB400826D7A /* ERSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4744F16B9AFB400826D7A /* ERSViewController.m */; };
 		96C4745816B9AFB400826D7A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4745716B9AFB400826D7A /* SenTestingKit.framework */; };
 		96C4745916B9AFB400826D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743316B9AFB400826D7A /* UIKit.framework */; };
 		96C4745A16B9AFB400826D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743516B9AFB400826D7A /* Foundation.framework */; };
 		96C4746216B9AFB400826D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C4746016B9AFB400826D7A /* InfoPlist.strings */; };
 		96C4746516B9AFB400826D7A /* AmberWavesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4746416B9AFB400826D7A /* AmberWavesTests.m */; };
+		96C4747016B9B00000826D7A /* AmberWavesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4746F16B9B00000826D7A /* AmberWavesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +50,14 @@
 		96C4744716B9AFB400826D7A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		96C4744916B9AFB400826D7A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		96C4744C16B9AFB400826D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		96C4744E16B9AFB400826D7A /* ERSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSViewController.h; sourceTree = "<group>"; };
-		96C4744F16B9AFB400826D7A /* ERSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSViewController.m; sourceTree = "<group>"; };
 		96C4745616B9AFB400826D7A /* AmberWavesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmberWavesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C4745716B9AFB400826D7A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		96C4745F16B9AFB400826D7A /* AmberWavesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmberWavesTests-Info.plist"; sourceTree = "<group>"; };
 		96C4746116B9AFB400826D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96C4746316B9AFB400826D7A /* AmberWavesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmberWavesTests.h; sourceTree = "<group>"; };
 		96C4746416B9AFB400826D7A /* AmberWavesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmberWavesTests.m; sourceTree = "<group>"; };
+		96C4746E16B9B00000826D7A /* AmberWavesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmberWavesViewController.h; sourceTree = "<group>"; };
+		96C4746F16B9B00000826D7A /* AmberWavesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmberWavesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +117,11 @@
 		96C4743916B9AFB400826D7A /* AmberWaves */ = {
 			isa = PBXGroup;
 			children = (
+				96C4746E16B9B00000826D7A /* AmberWavesViewController.h */,
+				96C4746F16B9B00000826D7A /* AmberWavesViewController.m */,
 				96C4744216B9AFB400826D7A /* ERSAppDelegate.h */,
 				96C4744316B9AFB400826D7A /* ERSAppDelegate.m */,
 				96C4744B16B9AFB400826D7A /* MainStoryboard.storyboard */,
-				96C4744E16B9AFB400826D7A /* ERSViewController.h */,
-				96C4744F16B9AFB400826D7A /* ERSViewController.m */,
 				96C4743A16B9AFB400826D7A /* Supporting Files */,
 			);
 			path = AmberWaves;
@@ -273,7 +273,7 @@
 			files = (
 				96C4744016B9AFB400826D7A /* main.m in Sources */,
 				96C4744416B9AFB400826D7A /* ERSAppDelegate.m in Sources */,
-				96C4745016B9AFB400826D7A /* ERSViewController.m in Sources */,
+				96C4747016B9B00000826D7A /* AmberWavesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +379,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmberWaves/AmberWaves-Prefix.pch";
 				INFOPLIST_FILE = "AmberWaves/AmberWaves-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,7 +392,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmberWaves/AmberWaves-Prefix.pch";
 				INFOPLIST_FILE = "AmberWaves/AmberWaves-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
