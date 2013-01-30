@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C4743416B9AFB400826D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743316B9AFB400826D7A /* UIKit.framework */; };
+		96C4743616B9AFB400826D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743516B9AFB400826D7A /* Foundation.framework */; };
+		96C4743816B9AFB400826D7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743716B9AFB400826D7A /* CoreGraphics.framework */; };
+		96C4743E16B9AFB400826D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C4743C16B9AFB400826D7A /* InfoPlist.strings */; };
+		96C4744016B9AFB400826D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4743F16B9AFB400826D7A /* main.m */; };
+		96C4744416B9AFB400826D7A /* ERSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4744316B9AFB400826D7A /* ERSAppDelegate.m */; };
+		96C4744616B9AFB400826D7A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C4744516B9AFB400826D7A /* Default.png */; };
+		96C4744816B9AFB400826D7A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C4744716B9AFB400826D7A /* Default@2x.png */; };
+		96C4744A16B9AFB400826D7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C4744916B9AFB400826D7A /* Default-568h@2x.png */; };
+		96C4744D16B9AFB400826D7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C4744B16B9AFB400826D7A /* MainStoryboard.storyboard */; };
+		96C4745016B9AFB400826D7A /* ERSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4744F16B9AFB400826D7A /* ERSViewController.m */; };
+		96C4745816B9AFB400826D7A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4745716B9AFB400826D7A /* SenTestingKit.framework */; };
+		96C4745916B9AFB400826D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743316B9AFB400826D7A /* UIKit.framework */; };
+		96C4745A16B9AFB400826D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743516B9AFB400826D7A /* Foundation.framework */; };
+		96C4746216B9AFB400826D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96C4746016B9AFB400826D7A /* InfoPlist.strings */; };
+		96C4746516B9AFB400826D7A /* AmberWavesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4746416B9AFB400826D7A /* AmberWavesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96C4745B16B9AFB400826D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C4742616B9AFB400826D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C4742E16B9AFB400826D7A;
+			remoteInfo = AmberWaves;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96C4742F16B9AFB400826D7A /* AmberWaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmberWaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C4743316B9AFB400826D7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96C4743516B9AFB400826D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96C4743716B9AFB400826D7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96C4743B16B9AFB400826D7A /* AmberWaves-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmberWaves-Info.plist"; sourceTree = "<group>"; };
+		96C4743D16B9AFB400826D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96C4743F16B9AFB400826D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96C4744116B9AFB400826D7A /* AmberWaves-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmberWaves-Prefix.pch"; sourceTree = "<group>"; };
+		96C4744216B9AFB400826D7A /* ERSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSAppDelegate.h; sourceTree = "<group>"; };
+		96C4744316B9AFB400826D7A /* ERSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSAppDelegate.m; sourceTree = "<group>"; };
+		96C4744516B9AFB400826D7A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		96C4744716B9AFB400826D7A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		96C4744916B9AFB400826D7A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		96C4744C16B9AFB400826D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		96C4744E16B9AFB400826D7A /* ERSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSViewController.h; sourceTree = "<group>"; };
+		96C4744F16B9AFB400826D7A /* ERSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSViewController.m; sourceTree = "<group>"; };
+		96C4745616B9AFB400826D7A /* AmberWavesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmberWavesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C4745716B9AFB400826D7A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		96C4745F16B9AFB400826D7A /* AmberWavesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmberWavesTests-Info.plist"; sourceTree = "<group>"; };
+		96C4746116B9AFB400826D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96C4746316B9AFB400826D7A /* AmberWavesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmberWavesTests.h; sourceTree = "<group>"; };
+		96C4746416B9AFB400826D7A /* AmberWavesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmberWavesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C4742C16B9AFB400826D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4743416B9AFB400826D7A /* UIKit.framework in Frameworks */,
+				96C4743616B9AFB400826D7A /* Foundation.framework in Frameworks */,
+				96C4743816B9AFB400826D7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C4745216B9AFB400826D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4745816B9AFB400826D7A /* SenTestingKit.framework in Frameworks */,
+				96C4745916B9AFB400826D7A /* UIKit.framework in Frameworks */,
+				96C4745A16B9AFB400826D7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C4742416B9AFB400826D7A = {
+			isa = PBXGroup;
+			children = (
+				96C4743916B9AFB400826D7A /* AmberWaves */,
+				96C4745D16B9AFB400826D7A /* AmberWavesTests */,
+				96C4743216B9AFB400826D7A /* Frameworks */,
+				96C4743016B9AFB400826D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C4743016B9AFB400826D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C4742F16B9AFB400826D7A /* AmberWaves.app */,
+				96C4745616B9AFB400826D7A /* AmberWavesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C4743216B9AFB400826D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96C4743316B9AFB400826D7A /* UIKit.framework */,
+				96C4743516B9AFB400826D7A /* Foundation.framework */,
+				96C4743716B9AFB400826D7A /* CoreGraphics.framework */,
+				96C4745716B9AFB400826D7A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96C4743916B9AFB400826D7A /* AmberWaves */ = {
+			isa = PBXGroup;
+			children = (
+				96C4744216B9AFB400826D7A /* ERSAppDelegate.h */,
+				96C4744316B9AFB400826D7A /* ERSAppDelegate.m */,
+				96C4744B16B9AFB400826D7A /* MainStoryboard.storyboard */,
+				96C4744E16B9AFB400826D7A /* ERSViewController.h */,
+				96C4744F16B9AFB400826D7A /* ERSViewController.m */,
+				96C4743A16B9AFB400826D7A /* Supporting Files */,
+			);
+			path = AmberWaves;
+			sourceTree = "<group>";
+		};
+		96C4743A16B9AFB400826D7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C4743B16B9AFB400826D7A /* AmberWaves-Info.plist */,
+				96C4743C16B9AFB400826D7A /* InfoPlist.strings */,
+				96C4743F16B9AFB400826D7A /* main.m */,
+				96C4744116B9AFB400826D7A /* AmberWaves-Prefix.pch */,
+				96C4744516B9AFB400826D7A /* Default.png */,
+				96C4744716B9AFB400826D7A /* Default@2x.png */,
+				96C4744916B9AFB400826D7A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C4745D16B9AFB400826D7A /* AmberWavesTests */ = {
+			isa = PBXGroup;
+			children = (
+				96C4746316B9AFB400826D7A /* AmberWavesTests.h */,
+				96C4746416B9AFB400826D7A /* AmberWavesTests.m */,
+				96C4745E16B9AFB400826D7A /* Supporting Files */,
+			);
+			path = AmberWavesTests;
+			sourceTree = "<group>";
+		};
+		96C4745E16B9AFB400826D7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C4745F16B9AFB400826D7A /* AmberWavesTests-Info.plist */,
+				96C4746016B9AFB400826D7A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C4742E16B9AFB400826D7A /* AmberWaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C4746816B9AFB400826D7A /* Build configuration list for PBXNativeTarget "AmberWaves" */;
+			buildPhases = (
+				96C4742B16B9AFB400826D7A /* Sources */,
+				96C4742C16B9AFB400826D7A /* Frameworks */,
+				96C4742D16B9AFB400826D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmberWaves;
+			productName = AmberWaves;
+			productReference = 96C4742F16B9AFB400826D7A /* AmberWaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96C4745516B9AFB400826D7A /* AmberWavesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C4746B16B9AFB400826D7A /* Build configuration list for PBXNativeTarget "AmberWavesTests" */;
+			buildPhases = (
+				96C4745116B9AFB400826D7A /* Sources */,
+				96C4745216B9AFB400826D7A /* Frameworks */,
+				96C4745316B9AFB400826D7A /* Resources */,
+				96C4745416B9AFB400826D7A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C4745C16B9AFB400826D7A /* PBXTargetDependency */,
+			);
+			name = AmberWavesTests;
+			productName = AmberWavesTests;
+			productReference = 96C4745616B9AFB400826D7A /* AmberWavesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C4742616B9AFB400826D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ERS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "USDA ERS";
+			};
+			buildConfigurationList = 96C4742916B9AFB400826D7A /* Build configuration list for PBXProject "AmberWaves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96C4742416B9AFB400826D7A;
+			productRefGroup = 96C4743016B9AFB400826D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C4742E16B9AFB400826D7A /* AmberWaves */,
+				96C4745516B9AFB400826D7A /* AmberWavesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C4742D16B9AFB400826D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4743E16B9AFB400826D7A /* InfoPlist.strings in Resources */,
+				96C4744616B9AFB400826D7A /* Default.png in Resources */,
+				96C4744816B9AFB400826D7A /* Default@2x.png in Resources */,
+				96C4744A16B9AFB400826D7A /* Default-568h@2x.png in Resources */,
+				96C4744D16B9AFB400826D7A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C4745316B9AFB400826D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4746216B9AFB400826D7A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96C4745416B9AFB400826D7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C4742B16B9AFB400826D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4744016B9AFB400826D7A /* main.m in Sources */,
+				96C4744416B9AFB400826D7A /* ERSAppDelegate.m in Sources */,
+				96C4745016B9AFB400826D7A /* ERSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C4745116B9AFB400826D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4746516B9AFB400826D7A /* AmberWavesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96C4745C16B9AFB400826D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C4742E16B9AFB400826D7A /* AmberWaves */;
+			targetProxy = 96C4745B16B9AFB400826D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96C4743C16B9AFB400826D7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C4743D16B9AFB400826D7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96C4744B16B9AFB400826D7A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C4744C16B9AFB400826D7A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		96C4746016B9AFB400826D7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C4746116B9AFB400826D7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96C4746616B9AFB400826D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96C4746716B9AFB400826D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96C4746916B9AFB400826D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmberWaves/AmberWaves-Prefix.pch";
+				INFOPLIST_FILE = "AmberWaves/AmberWaves-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96C4746A16B9AFB400826D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmberWaves/AmberWaves-Prefix.pch";
+				INFOPLIST_FILE = "AmberWaves/AmberWaves-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		96C4746C16B9AFB400826D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmberWaves.app/AmberWaves";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmberWaves/AmberWaves-Prefix.pch";
+				INFOPLIST_FILE = "AmberWavesTests/AmberWavesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		96C4746D16B9AFB400826D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmberWaves.app/AmberWaves";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmberWaves/AmberWaves-Prefix.pch";
+				INFOPLIST_FILE = "AmberWavesTests/AmberWavesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C4742916B9AFB400826D7A /* Build configuration list for PBXProject "AmberWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C4746616B9AFB400826D7A /* Debug */,
+				96C4746716B9AFB400826D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C4746816B9AFB400826D7A /* Build configuration list for PBXNativeTarget "AmberWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C4746916B9AFB400826D7A /* Debug */,
+				96C4746A16B9AFB400826D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96C4746B16B9AFB400826D7A /* Build configuration list for PBXNativeTarget "AmberWavesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C4746C16B9AFB400826D7A /* Debug */,
+				96C4746D16B9AFB400826D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C4742616B9AFB400826D7A /* Project object */;
+}
