@@ -12,9 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *headerImageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *sideImageView;
-@property (weak, nonatomic) IBOutlet UITextView *contentOneTextView;
-@property (weak, nonatomic) IBOutlet UITextView *contentTwoTextView;
-//@property (weak, nonatomic) IBOutlet UIWebView *contentWebView;
+
+@property (weak, nonatomic) IBOutlet UIWebView *contentWebView;
 
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9613F4AE16BAC97800FDCB32 /* ersBanner.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9613F4AD16BAC97800FDCB32 /* ersBanner.jpeg */; };
+		9613F4B016BACA8100FDCB32 /* feature4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9613F4AF16BACA8100FDCB32 /* feature4.jpg */; };
+		9613F4B216BAD32C00FDCB32 /* AmberWavesBanner.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9613F4B116BAD32C00FDCB32 /* AmberWavesBanner.jpeg */; };
 		96C4743416B9AFB400826D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743316B9AFB400826D7A /* UIKit.framework */; };
 		96C4743616B9AFB400826D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743516B9AFB400826D7A /* Foundation.framework */; };
 		96C4743816B9AFB400826D7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4743716B9AFB400826D7A /* CoreGraphics.framework */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9613F4AD16BAC97800FDCB32 /* ersBanner.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ersBanner.jpeg; sourceTree = "<group>"; };
+		9613F4AF16BACA8100FDCB32 /* feature4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feature4.jpg; sourceTree = "<group>"; };
+		9613F4B116BAD32C00FDCB32 /* AmberWavesBanner.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AmberWavesBanner.jpeg; sourceTree = "<group>"; };
 		96C4742F16B9AFB400826D7A /* AmberWaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmberWaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C4743316B9AFB400826D7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96C4743516B9AFB400826D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -132,8 +138,11 @@
 			children = (
 				96C4743B16B9AFB400826D7A /* AmberWaves-Info.plist */,
 				96C4743C16B9AFB400826D7A /* InfoPlist.strings */,
+				9613F4B116BAD32C00FDCB32 /* AmberWavesBanner.jpeg */,
 				96C4743F16B9AFB400826D7A /* main.m */,
+				9613F4AD16BAC97800FDCB32 /* ersBanner.jpeg */,
 				96C4744116B9AFB400826D7A /* AmberWaves-Prefix.pch */,
+				9613F4AF16BACA8100FDCB32 /* feature4.jpg */,
 				96C4744516B9AFB400826D7A /* Default.png */,
 				96C4744716B9AFB400826D7A /* Default@2x.png */,
 				96C4744916B9AFB400826D7A /* Default-568h@2x.png */,
@@ -237,6 +246,9 @@
 				96C4744816B9AFB400826D7A /* Default@2x.png in Resources */,
 				96C4744A16B9AFB400826D7A /* Default-568h@2x.png in Resources */,
 				96C4744D16B9AFB400826D7A /* MainStoryboard.storyboard in Resources */,
+				9613F4AE16BAC97800FDCB32 /* ersBanner.jpeg in Resources */,
+				9613F4B016BACA8100FDCB32 /* feature4.jpg in Resources */,
+				9613F4B216BAD32C00FDCB32 /* AmberWavesBanner.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +464,7 @@
 				96C4746A16B9AFB400826D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96C4746B16B9AFB400826D7A /* Build configuration list for PBXNativeTarget "AmberWavesTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +473,7 @@
 				96C4746D16B9AFB400826D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
